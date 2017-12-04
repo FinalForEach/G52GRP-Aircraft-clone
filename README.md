@@ -14,7 +14,7 @@ This should install glfw3 and all its dependencies. The make file should run per
 ### Installing dependencies on Mac:
 `brew install glfw`
 
-This has not been tested, but should work- change this text if it has.
+This has not been tested, but should work- change this text if it has. You may need to install homebrew first.
 
 ### Installing dependencies on Windows:
 
