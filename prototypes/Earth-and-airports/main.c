@@ -167,6 +167,7 @@ int main(int argc, char** argv)
 	if(argc<2)
 	{
 		printf("Needs the location of the openflights dat file\n");
+		printf("It can be retrieved from From https://openflights.org/data.html\n");
 		return 1;
 	}
 	if(!glfwInit())

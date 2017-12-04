@@ -7,6 +7,9 @@ objects = main.c
 
 all: $(TARGET)
 
+run: all
+	$(TARGET)
+
 $(TARGET): $(objects) 
 	$(CC) -o $@ $^ $(LDFLAGS)
 
