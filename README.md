@@ -12,6 +12,9 @@ Testing to see what can be moved on multiple computers
 This should install glfw3 and all its dependencies. The make file should run perfectly.
 
 ### Installing dependencies on Mac:
+`brew install glfw`
+
+This has not been tested, but should work- change this text if it has.
 
 ### Installing dependencies on Windows:
 
@@ -21,9 +24,8 @@ This should install glfw3 and all its dependencies. The make file should run per
 
 `make run`
 
-
 or
 
-
 `make`
+
 `./bin/airport-renderer`
