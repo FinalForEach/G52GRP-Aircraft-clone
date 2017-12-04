@@ -1,4 +1,14 @@
-LIBS = -lGL -lX11 -lXxf86vm -lpthread -ldl -lXrandr -lXinerama -lXcursor -lm
+LIBS = -lglfw3 -lGL -lX11 -lXxf86vm -lpthread -ldl -lXrandr -lXinerama -lXcursor -lm
 
-build: 
-	$(CC) main.c ../../glfw-3.2.1/src/libglfw3.a $(LIBS)
+LDFLAGS = $(LIBS)
+TARGET = ./bin/airport-renderer
+
+objects = main.c
+
+all: $(TARGET)
+
+$(TARGET): $(objects) 
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+clean:
+	rm $(TARGET)
