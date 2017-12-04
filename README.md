@@ -21,10 +21,13 @@ This has not been tested, but should work- change this text if it has. You may n
 
 ### To run:
 
+`make clean`
 
 `make run`
 
 or
+
+`make clean`
 
 `make`
 
